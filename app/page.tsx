@@ -90,9 +90,9 @@ export default function Home() {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-8 font-['Ogg']">About UMD BITS</h2>
             <p className="text-xl leading-relaxed mb-12">
-              UMD BITS is a prestigious student organization at the University of Maryland that bridges the gap between
-              business and technology. We provide our members with valuable insights, skills, and networking
-              opportunities in the ever-evolving world of business information systems.
+              BITS is a student organization at the University of Maryland that bridges the gap between
+              business analytics and computing technology. We provide our members with workshops, networking
+              opportunities, and hosted events in the consistently volatile world of business information systems.
             </p>
           </motion.div>
         </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 role: "VP of Finance",
                 email: "kmahade1@terpmail.umd.edu",
                 image:
-                  "/placeholder.jpg", // Using Moiz's photo as placeholder
+                  "/krisha_headshot.png",
                 linkedin: "https://www.linkedin.com/in/krisha-mahadevia/",
               },
               {
@@ -309,7 +309,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#4A0E0E] text-[#F5F5F5] py-12">
         <div className="container mx-auto px-6 text-center">
-          <p className="mb-4">&copy; {new Date().getFullYear()} UMD BITS. All rights reserved and found <Link href="https://github.com/CarterPry/UMD-BITS/blob/main/LICENSE">here.</Link></p>
+          <p className="mb-4">&copy; {new Date().getFullYear()} UMD BITS. All rights are reserved.</p>
           <p className="mb-"><Link href="https://github.com/CarterPry">Development of this site can be found here.</Link></p>
           <p className="text-[#F5F5F5]/60 mb-4">University of Maryland, College Park</p>
           <div className="flex justify-center space-x-6 mb-8">
