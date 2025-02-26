@@ -217,19 +217,19 @@ export default function Home() {
                 linkedin: "https://www.linkedin.com/in/rudra-soni/",
               },
               {
-                name: "Abigail Richman",
+                name: "Abigail Richard",
                 role: "VP of Membership",
                 email: "arich5@terpmail.umd.edu",
                 image:
                   "/abby.webp",
-                linkedin: "https://www.linkedin.com/company/umd-bits/",
+                linkedin: "https://www.linkedin.com/in/abbyrichard/",
               },
               {
                 name: "Mohnish Mahajan",
                 role: "VP of Content",
                 email: "mmahaja1@terpmail.umd.edu",
                 image:
-                  "/mohnish_headshot.jpg",
+                  "/mohnish_headshot.jpeg",
                 linkedin: "https://www.linkedin.com/in/mohnish-mahajan/",
                 subVP: {
                   name: "Vishesh Khare",
@@ -310,7 +310,7 @@ export default function Home() {
       <footer className="bg-[#4A0E0E] text-[#F5F5F5] py-12">
         <div className="container mx-auto px-6 text-center">
           <p className="mb-4">&copy; {new Date().getFullYear()} UMD BITS. All rights are reserved.</p>
-          <p className="mb-"><Link href="https://github.com/CarterPry">Development of this site can be found here.</Link></p>
+          <p className="mb-"><Link href="https://github.com/CarterPry/UMDBITS-Website">Development of this site can be found here.</Link></p>
           <p className="text-[#F5F5F5]/60 mb-4">University of Maryland, College Park</p>
           <div className="flex justify-center space-x-6 mb-8">
             <Link href="https://www.instagram.com/umdbits" className="hover:opacity-75 transition-opacity">
@@ -386,4 +386,3 @@ export default function Home() {
     </div>
   )
 }
-
